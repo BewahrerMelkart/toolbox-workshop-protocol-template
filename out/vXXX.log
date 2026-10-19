@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.19)  19 OCT 2026 19:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.19)  19 OCT 2026 19:48
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -488,7 +488,7 @@ and I'll forget about whatever was undefined.
 
 content/theorie.tex:34: Missing number, treated as zero.
 <to be read again> 
-                   V
+                   \def 
 l.34 \\]
         
 A number should have been here; I inserted `0'.
@@ -497,7 +497,7 @@ look up `weird error' in the index to The TeXbook.)
 
 content/theorie.tex:34: Illegal unit of measure (pt inserted).
 <to be read again> 
-                   V
+                   \def 
 l.34 \\]
         
 Dimensions can be in units of em, ex, in, pt, pc,
@@ -506,6 +506,19 @@ I'll assume that you meant to say pt, for printer's points.
 To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
+
+
+content/theorie.tex:34: LaTeX Error: Environment aligned undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \\]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 content/theorie.tex:34: Missing $ inserted.
 <inserted text> 
@@ -516,8 +529,8 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 content/theorie.tex:34: Misplaced alignment tab character &.
-<argument>  V_2 = \pi \cdot B_6 (D_1')^2 &
-                                          - \pi \cdot B_1 (D_2')^2 - \pi (B_...
+<argument> ...gned} V_2 = \pi \cdot B_6 (D_1')^2 &
+                                                  - \pi \cdot B_1 (D_2')^2 -...
 l.34 \\]
         
 I can't figure out why you would want to use a tab mark
@@ -539,13 +552,29 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+
+content/theorie.tex:34: LaTeX Error: \begin{document} ended by \end{aligned}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \\]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 content/theorie.tex:34: Missing $ inserted.
 <inserted text> 
                 $
 l.34 \\]
         
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--34
