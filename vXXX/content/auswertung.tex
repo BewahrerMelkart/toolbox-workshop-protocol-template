@@ -3,7 +3,7 @@
 
 \begin{figure}
   \centering
-  \includegraphics{plot.pdf}
+  \includegraphics{plot}
   \caption{Plot.}
   \label{fig:plot}
 \end{figure}
@@ -14,12 +14,12 @@
   \label{tab:tabelle}
   \sisetup{table-format=1.1, per-mode=reciprocal}
   \begin{tblr}{
-      colspec = {S[table-format=3.0] S[table-format=2.1] S},
-      row{1} = {guard, mode=math},
-      vline{4} = {2}{-}{text=\clap{$\pm$}},
-    }
+    colspec = {S[table-format=3.0] S[table-format=1.1] S[table-format=2.1] S[table-format=1.1]},
+    row{1} = {guard, mode=math},
+    vline{4} = {2}{-}{text=\clap{$\pm$}},
+  }
     \toprule
-    U \mathbin{/} \unit{\volt} & I \mathbin{/} \unit{\micro\ampere} & \SetCell[c=2]{c} N \mathbin{/} \unit{\per\second} & \\
+    U \mathbin{/} \unit{\volt} & I \mathbin{/} \unit{\micro\ampere} & \SetCell[c=2]{c} N \mathbin{/} \unit{\per\second} \\
     \midrule
     360 & 0.1 & 98.3 & 0.9 \\
     400 & 0.2 & 99.8 & 1.0 \\

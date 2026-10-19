@@ -1,8 +1,10 @@
+
+
 \documentclass[
   bibliography=totoc,     % Literatur im Inhaltsverzeichnis
   captions=tableheading,  % Tabellenüberschriften
   titlepage=firstiscover, % Titelseite ist Deckblatt
-]{scrartcl}
+]{scrartcl.cls}
 
 % Warnung, falls nochmal kompiliert werden muss
 \usepackage[aux]{rerunfilecheck}
@@ -99,6 +101,9 @@
 
 % schöne Tabellen
 \usepackage{tabularray}
+
+\UseTblrLibrary{siunitx}
+
 \UseTblrLibrary{booktabs, siunitx}
 
 % longtblr-Umgebung auf Deutsch
@@ -115,8 +120,8 @@
   backend=biber,
 ]{biblatex}
 % Quellendatenbank
-\addbibresource{../lit.bib}
-\addbibresource{../programme.bib}
+%\addbibresource{../lit.bib}
+%\addbibresource{../programme.bib}
 
 % Hyperlinks im Dokument
 \usepackage[
