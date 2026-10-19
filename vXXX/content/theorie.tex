@@ -1,9 +1,36 @@
 \section{Theorie}
 \label{sec:Theorie}
-Theorie
 
-Hallo Welt,
-dies ist ein Test, um zu sehen, ob das hier funktioniert
+Wir wollen zunächst einen geschlossenen Ausdruck für das Volumen herleiten, wozu wir das Volumen erstmal in zwei Teile zerlegen (siehe Bild):
+\\[
+    V = V_1 + V_2
+\\]
 
-18000!
+Auch soll hier aus Gründen der Einfachheit immer folgende Ersetzung gelten:
+\\[
+    A_k' := \frac{A_k}{2} \quad \text{bzw.} \quad D_k' := \frac{D_k}{2}
+\\]
+
+Wir erhalten aus den Zeichnungen folgende Ausdrücke für $V_1$ und $V_2$:
+
+\subsection*{Teilvolumen $V_1$ (Sockel / Quader)}
+\\[
+    \begin{aligned}
+        \\V_1 = A_1 \cdot A_9 \cdot B_5
+        &- \pi \cdot B_5 (A_3')^2 - \pi \cdot B_5 (A_6')^2
+        &- \pi \cdot B_2 (D_3')^2 - \pi (B_5 - B_2) (A_2')^2 \\
+        &- \frac{1}{3}\pi \cdot B_3 \left( (A_4')^2 + A_4' A_5' + (A_5')^2 \right) - \pi (B_5 - B_3) (A_5')^2
+        &- \pi \cdot B_4 (A_8')^2 - \pi (B_5 - B_4) (A_7')^2
+    \end{aligned}
+\\]
+
+\subsection*{Teilvolumen $V_2$ (Zylinderaufsatz)}
+\\[
+    \begin{aligned}
+        V_2 = \pi \cdot B_6 (D_1')^2
+        &- \pi \cdot B_1 (D_2')^2 - \pi (B_6 - B_1) (A_7')^2 \\
+        &- 2 D_4 (D_1' - D_2') B_6 - 2 D_5 (D_1' - D_2') B_7
+    \end{aligned}
+\\]
+
 \cite{sample}

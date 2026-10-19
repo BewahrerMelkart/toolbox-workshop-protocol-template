@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.19)  19 OCT 2026 13:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.19)  19 OCT 2026 19:35
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -79,8 +79,32 @@ l.6 \usepackage{
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
-vXXX.tex:11: Undefined control sequence.
-l.11 \subject
+
+vXXX.tex:7: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \usepackage{
+                amstext}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+vXXX.tex:8: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \usepackage{
+                amsmath}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+vXXX.tex:13: Undefined control sequence.
+l.13 \subject
              {VERSUCH NUMMER}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -89,13 +113,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-vXXX.tex:11: LaTeX Error: Missing \begin{document}.
+vXXX.tex:13: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 \subject{V
+l.13 \subject{V
                ERSUCH NUMMER}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -114,7 +138,7 @@ Missing character: There is no M in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no R in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 11--18
+Overfull \hbox (20.0pt too wide) in paragraph at lines 13--20
 []
  []
 
@@ -127,37 +151,37 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 (C:/Users\benne\IdeaProjects\toolbox-workshop-protocol-template\out\vXXX.aux)
 \openout1 = `vXXX.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 
-vXXX.tex:19: LaTeX Error: The font size command \normalsize is not defined:
+vXXX.tex:21: LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 \begin{document}
+l.21 \begin{document}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-vXXX.tex:21: Undefined control sequence.
-l.21 \maketitle
+vXXX.tex:23: Undefined control sequence.
+l.23 \maketitle
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -165,8 +189,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-vXXX.tex:23: Undefined control sequence.
-l.23 \tableofcontents
+vXXX.tex:25: Undefined control sequence.
+l.25 \tableofcontents
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -175,14 +199,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-vXXX.tex:24: LaTeX Error: The font size command \normalsize is not defined:
+vXXX.tex:26: LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 \newpage
+l.26 \newpage
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -198,56 +222,346 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-content/theorie.tex:9: Undefined control sequence.
+content/theorie.tex:7: Missing number, treated as zero.
+<to be read again> 
+                   V
+l.7 \\]
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+content/theorie.tex:7: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   V
+l.7 \\]
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+content/theorie.tex:7: Missing $ inserted.
+<inserted text> 
+                $
+l.7 \\]
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 7.
+content/theorie.tex:7: Missing $ inserted.
+<inserted text> 
+                $
+l.7 \\]
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+
+ []
+
+content/theorie.tex:12: Missing number, treated as zero.
+<to be read again> 
+                   A
+l.12 \\]
+        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+content/theorie.tex:12: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   A
+l.12 \\]
+        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+content/theorie.tex:12: Missing $ inserted.
+<inserted text> 
+                $
+l.12 \\]
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+content/theorie.tex:12: Undefined control sequence.
+<argument>  A_k' := \frac {A_k}{2} \quad \text 
+                                               {bzw.} \quad D_k' := \frac {D...
+l.12 \\]
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+content/theorie.tex:12: Missing $ inserted.
+<inserted text> 
+                $
+l.12 \\]
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--13
+
+ []
+
+content/theorie.tex:16: Undefined control sequence.
+l.16 \subsection
+                *{Teilvolumen $V_1$ (Sockel / Quader)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+content/theorie.tex:25: Missing number, treated as zero.
+<to be read again> 
+                   \def 
+l.25 \\]
+        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+content/theorie.tex:25: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \def 
+l.25 \\]
+        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+content/theorie.tex:25: LaTeX Error: Environment aligned undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \\]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+content/theorie.tex:25: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \\]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+content/theorie.tex:25: Missing $ inserted.
+<inserted text> 
+                $
+l.25 \\]
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+content/theorie.tex:25: Misplaced alignment tab character &.
+<argument> ...d} \\V_1 = A_1 \cdot A_9 \cdot B_5 &
+                                                  - \pi \cdot B_5 (A_3')^2 -...
+l.25 \\]
+        
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+content/theorie.tex:25: Misplaced alignment tab character &.
+<argument> ... (A_3')^2 - \pi \cdot B_5 (A_6')^2 &
+                                                  - \pi \cdot B_2 (D_3')^2 -...
+l.25 \\]
+        
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+content/theorie.tex:25: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.25 \\]
+        
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+content/theorie.tex:25: Misplaced alignment tab character &.
+<argument> ...right ) - \pi (B_5 - B_3) (A_5')^2 &
+                                                  - \pi \cdot B_4 (A_8')^2 -...
+l.25 \\]
+        
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+content/theorie.tex:25: LaTeX Error: \begin{document} ended by \end{aligned}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \\]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+content/theorie.tex:25: Missing $ inserted.
+<inserted text> 
+                $
+l.25 \\]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--26
+
+ []
+
+content/theorie.tex:27: Undefined control sequence.
+l.27 \subsection
+                *{Teilvolumen $V_2$ (Zylinderaufsatz)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+content/theorie.tex:34: Missing number, treated as zero.
+<to be read again> 
+                   V
+l.34 \\]
+        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+content/theorie.tex:34: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   V
+l.34 \\]
+        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+content/theorie.tex:34: Missing $ inserted.
+<inserted text> 
+                $
+l.34 \\]
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+content/theorie.tex:34: Misplaced alignment tab character &.
+<argument>  V_2 = \pi \cdot B_6 (D_1')^2 &
+                                          - \pi \cdot B_1 (D_2')^2 - \pi (B_...
+l.34 \\]
+        
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+content/theorie.tex:34: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.34 \\]
+        
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+content/theorie.tex:34: Missing $ inserted.
+<inserted text> 
+                $
+l.34 \\]
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--35
+
+ []
+
+content/theorie.tex:36: Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.9 \cite{sample}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation `sample' on page  undefined on input line 9.
-
-) (content/durchfuehrung.tex
-content/durchfuehrung.tex:1: Undefined control sequence.
-l.1 \section
-            {Durchführung}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) (content/auswertung.tex
-content/auswertung.tex:1: Undefined control sequence.
-l.1 \section
-            {Auswertung}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-content/auswertung.tex:4: LaTeX Error: Environment figure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \begin{figure}
+l.36 \cite{sample}
                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-content/auswertung.tex:6: Undefined control sequence.
-l.6   \includegraphics
-                      {plot}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -255,480 +569,28 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-content/auswertung.tex:7: LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7   \caption
-              {Plot.}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-content/auswertung.tex:9: LaTeX Error: \begin{document} ended by \end{figure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \end{figure}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-content/auswertung.tex:11: LaTeX Error: Environment table undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \begin{table}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-content/auswertung.tex:13: LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13   \caption
-               {Eine Beispieltabelle mit Messdaten.}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-content/auswertung.tex:15: Undefined control sequence.
-l.15   \sisetup
-               {table-format=1.1, per-mode=reciprocal}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-content/auswertung.tex:16: LaTeX Error: Environment tblr undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16   \begin{tblr}
-                   {
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 19.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 19.
-content/auswertung.tex:21: Undefined control sequence.
-l.21     \toprule
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-content/auswertung.tex:22: Missing $ inserted.
-<inserted text> 
-                $
-l.22     U \mathbin
-                   {/} \unit{\volt} & I \mathbin{/} \unit{\micro\ampere} & \...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-content/auswertung.tex:22: Undefined control sequence.
-l.22     U \mathbin{/} \unit
-                            {\volt} & I \mathbin{/} \unit{\micro\ampere} & \...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-content/auswertung.tex:22: Undefined control sequence.
-l.22     U \mathbin{/} \unit{\volt
-                                  } & I \mathbin{/} \unit{\micro\ampere} & \...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-content/auswertung.tex:22: Misplaced alignment tab character &.
-l.22     U \mathbin{/} \unit{\volt} &
-                                      I \mathbin{/} \unit{\micro\ampere} & \...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-content/auswertung.tex:22: Undefined control sequence.
-l.22 ...hbin{/} \unit{\volt} & I \mathbin{/} \unit
-                                                  {\micro\ampere} & \SetCell...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-content/auswertung.tex:22: Undefined control sequence.
-l.22 ... \unit{\volt} & I \mathbin{/} \unit{\micro
-                                                  \ampere} & \SetCell[c=2]{c...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-content/auswertung.tex:22: Undefined control sequence.
-l.22 ...\volt} & I \mathbin{/} \unit{\micro\ampere
-                                                  } & \SetCell[c=2]{c} N \ma...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-content/auswertung.tex:22: Misplaced alignment tab character &.
-l.22 ...lt} & I \mathbin{/} \unit{\micro\ampere} &
-                                                   \SetCell[c=2]{c} N \mathb...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-content/auswertung.tex:22: Undefined control sequence.
-l.22 ...mathbin{/} \unit{\micro\ampere} & \SetCell
-                                                  [c=2]{c} N \mathbin{/} \un...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-content/auswertung.tex:22: Undefined control sequence.
-l.22 ...re} & \SetCell[c=2]{c} N \mathbin{/} \unit
-                                                  {\per\second} \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-content/auswertung.tex:22: Undefined control sequence.
-l.22 ... \SetCell[c=2]{c} N \mathbin{/} \unit{\per
-                                                  \second} \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-content/auswertung.tex:22: Undefined control sequence.
-l.22 ...ll[c=2]{c} N \mathbin{/} \unit{\per\second
-                                                  } \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-content/auswertung.tex:22: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 ...=2]{c} N \mathbin{/} \unit{\per\second} \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-content/auswertung.tex:22: Missing $ inserted.
-<inserted text> 
-                $
-l.22 ...=2]{c} N \mathbin{/} \unit{\per\second} \\
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-content/auswertung.tex:23: Undefined control sequence.
-<recently read> \midrule 
-                         
-l.23     \midrule
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-content/auswertung.tex:24: Misplaced alignment tab character &.
-l.24     360 &
-               0.1 & 98.3 & 0.9 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-content/auswertung.tex:24: Misplaced alignment tab character &.
-l.24     360 & 0.1 &
-                     98.3 & 0.9 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-content/auswertung.tex:24: Misplaced alignment tab character &.
-l.24     360 & 0.1 & 98.3 &
-                            0.9 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-content/auswertung.tex:25: Misplaced alignment tab character &.
-l.25     400 &
-               0.2 & 99.8 & 1.0 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-content/auswertung.tex:25: Misplaced alignment tab character &.
-l.25     400 & 0.2 &
-                     99.8 & 1.0 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-content/auswertung.tex:25: Misplaced alignment tab character &.
-l.25     400 & 0.2 & 99.8 &
-                            1.0 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-content/auswertung.tex:26: Misplaced alignment tab character &.
-l.26     420 &
-               0.2 & 99.1 & 0.9 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-content/auswertung.tex:26: Misplaced alignment tab character &.
-l.26     420 & 0.2 &
-                     99.1 & 0.9 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-content/auswertung.tex:26: Misplaced alignment tab character &.
-l.26     420 & 0.2 & 99.1 &
-                            0.9 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-content/auswertung.tex:27: Undefined control sequence.
-<recently read> \bottomrule 
-                            
-l.27     \bottomrule
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-content/auswertung.tex:28: LaTeX Error: \begin{document} ended by \end{tblr}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28   \end{tblr}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-content/auswertung.tex:29: LaTeX Error: \begin{document} ended by \end{table}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 \end{table}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-content/auswertung.tex:31: Undefined control sequence.
-l.31 Siehe \autoref
-                   {fig:plot} und \autoref{tab:tabelle}!
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-content/auswertung.tex:31: Undefined control sequence.
-l.31 Siehe \autoref{fig:plot} und \autoref
-                                          {tab:tabelle}!
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) (content/diskussion.tex
-content/diskussion.tex:1: Undefined control sequence.
-l.1 \section
-            {Diskussion}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) (content/minted.tex
-content/minted.tex:1: Undefined control sequence.
-l.1 \section
-            {Python-Code}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-content/minted.tex:3: Undefined control sequence.
-l.3 \inputminted
-                {python3}{plot.py}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Citation `sample' on page  undefined on input line 36.
 
 )
 
-vXXX.tex:35: LaTeX Error: The font size command \normalsize is not defined:
+vXXX.tex:37: LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 \end{document}
+l.37 \end{document}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [2{C:/Users/benne/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
-vXXX.tex:35: Undefined control sequence.
+vXXX.tex:37: Undefined control sequence.
 <write> \newlabel{sec:Theorie}{{}{\thepage 
                                            }{}{}{}}
-l.35 \end{document}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-vXXX.tex:35: Undefined control sequence.
-<write> \newlabel{sec:Durchführung}{{}{\thepage 
-                                                 }{}{}{}}
-l.35 \end{document}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-vXXX.tex:35: Undefined control sequence.
-<write> \newlabel{sec:Auswertung}{{}{\thepage 
-                                              }{}{}{}}
-l.35 \end{document}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-vXXX.tex:35: Undefined control sequence.
-<write> \newlabel{fig:plot}{{}{\thepage 
-                                        }{}{}{}}
-l.35 \end{document}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-vXXX.tex:35: Undefined control sequence.
-<write> \newlabel{tab:tabelle}{{}{\thepage 
-                                           }{}{}{}}
-l.35 \end{document}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-vXXX.tex:35: Undefined control sequence.
-<write> \newlabel{sec:Diskussion}{{}{\thepage 
-                                              }{}{}{}}
-l.35 \end{document}
+l.37 \end{document}
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -746,22 +608,27 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 267 strings out of 467871
- 7539 string characters out of 5418375
+ 224 strings out of 467871
+ 6388 string characters out of 5418375
  439733 words of memory out of 5000000
- 29217 multiletter control sequences out of 15000+600000
+ 29186 multiletter control sequences out of 15000+600000
  628029 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,5n,34p,166b,110s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 29i,5n,34p,203b,91s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/benne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/benne/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb><C:/Users/benne/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb><C:/Users/benne/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb>
+fonts/cm/cmex10.pfb><C:/Users/benne/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb><C:/Users/benne/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/benne/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/benne/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/benne/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/benne/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
+benne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 Output written on C:/Users\benne\IdeaProjects\toolbox-workshop-protocol-templat
-e\out\vXXX.pdf (2 pages, 52399 bytes).
+e\out\vXXX.pdf (2 pages, 94862 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
